@@ -1,0 +1,95 @@
+
+
+.Pcontent{width: 100%; height: 100%; background: #f7f7f7; overflow: hidden;}
+.list_head{ height:45px; line-height: 45px;width: 100%; max-width: 640PX; background: #333;color: #fff; font-size: 15px; text-align: center; position: fixed; top: 0;}
+.list_head .lg{ color: #fff; font-weight: bold; font-size: 16px;}
+.list_head .logo{ background:url(https://b.yzcdn.cn/vant/logo-white.png) no-repeat left center/30px auto;  display: inline-block;height: 100%; padding-left: 40px;position: absolute; left: 10px; top: 0;}
+.list_head .logo img{width: 30px;}
+.list_content{width: 100%; height: 100%;padding: 45px 0 60px;}
+.piclist{width: 100%; height: 100%; overflow-x: hidden;overflow-y: auto;  }
+
+
+.piclist .list_ul li {
+  width: 22%;
+  box-sizing: border-box;  font-size: 0; margin: 15px 0 0 2.3%;
+  float: left;
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 4px;    
+  cursor: pointer;
+  text-align: center;position: relative;
+}
+.piclist .list_ul li img {
+  width: 100%;
+  border-radius: 4px;  
+}
+.piclist .list_ul li .del_img{position: absolute;
+  top: -8px;
+  right: -8px;
+  color: #969799;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 100%;}
+
+.list_bottom{  border-top: 1px solid #eee;background: #fff; text-align: center; padding:10px 0; height:60px; width: 100%; max-width: 640PX;position: fixed; bottom: 0;}
+
+.upbtn{ background: linear-gradient(to right, #4bb0ff, #6149f6); width: 70%; height:40px; line-height:40px;text-align: center; font-size: 16px; color: #fff;border-radius: 8px;}
+
+.loading,.fanished{ display: flex; justify-content: center; font-size: 14px; line-height: 0.8rem; padding: 10px 0;}
+
+/* 上传图片按钮 */
+.van-uploader{ display: block !important;}
+.van-uploader__input-wrapper{width: 100% !important; display: flex;justify-content: center; align-items: center;}
+.van-uploader {
+  position: relative;
+  display: inline-block;
+}
+.van-uploader__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.van-uploader__input-wrapper {
+  width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.van-uploader__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
